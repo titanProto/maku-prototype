@@ -1,2 +1,2 @@
 # maku-prototype
-Hi-fidelity Prototype for Team Maku's Project
+High-fidelity prototype for Team Maku's project
