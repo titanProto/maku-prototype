@@ -63,3 +63,11 @@
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
+#audit-text {
+	text-align: center;
+	background-color: rgba(183, 183, 183, 0.3);
+	border-radius: 2px;
+}
+#audit-page {
+	padding: 25px;
+}
