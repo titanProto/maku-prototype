@@ -81,5 +81,5 @@ function prevQuestion() {
 }
 
 function returnHome() {
-  window.location.href = "pages/home2.html";
+  window.location.href = "home2.html";
 }
