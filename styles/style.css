@@ -1,3 +1,4 @@
+/*classes*/
 .navbar { 
 	position: fixed;
     top: 0;
@@ -11,34 +12,24 @@
     margin-left: 60px;
     margin-right: 60px;
 }
-.audit{
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    height: 75px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-.survey_widget{
-    display: inline-block;
-    border-color: black;
-    border-right: 5px;
-    border-right-style: solid;
-    width: 20%;
-    height: 60px;
-    text-align: center;
-    padding-top: 15px;
-
-}
 .contents{
     display: inline;
     border: 0px;
     margin: 0px;
     padding: 0px;
 }
-
-
+.audit_table {
+    width:100%;
+    border-collapse: collapse;
+}
+.table_elements{
+    border: 5px solid #000000;
+    font-size: 24px;
+    font-weight: 600;
+    padding:10px;
+    text-align: center;
+    background-color: #E9E9E9;
+}
 .flex-container {
 	display: flex;
 	justify-content: center;
@@ -71,3 +62,4 @@
 #audit-page {
 	padding: 25px;
 }
+/*IDs*/
