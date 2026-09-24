@@ -9,6 +9,18 @@ function logMeIn() {
   }
 }
 
+function logAdminIn() {
+  let usernameEntered = document.getElementById("username").value;
+  let passwordEntered = document.getElementById("password").value;
+  if (usernameEntered != "" && passwordEntered != "") {
+    window.location.href = "admintools.html";
+  } else {
+    document.getElementById("loginError").innerHTML =
+      "Error - Please enter a username and password!";
+  }
+
+}
+
 let question = 1;
 const questionList = [1, 2, 3];
 
