@@ -4,11 +4,11 @@ const responses = [
 	name: "John Smith",
 	response: [
 	    {
-		question: "Are you batman?",
+		question: "Test Question",
 		answer: "Yes"
 	    },
 	    {
-		question: "Are you superman?",
+		question: "Test Question",
 		answer: "No"
 	    }
 	]
@@ -17,11 +17,11 @@ const responses = [
 	name: "Jane Doe",
 	response: [
 	    {
-		question: "Are you batman?",
+		question: "Test Question",
 		answer: "No"
 	    },
 	    {
-		question: "Are you superman?",
+		question: "Test Question",
 		answer: "No"
 	    }
 	]
@@ -30,11 +30,11 @@ const responses = [
 	name: "Ash Ketchum",
 	response: [
 	    {
-		question: "Are you batman?",
+		question: "Test Question",
 		answer: "No"
 	    },
 	    {
-		question: "Are you superman?",
+		question: "Test Question",
 		answer: "Yes"
 	    }
 	]
@@ -43,11 +43,11 @@ const responses = [
 	name: "Clark Kent",
 	response: [
 	    {
-		question: "Are you batman?",
+		question: "Test Question",
 		answer: "Yes"
 	    },
 	    {
-		question: "Are you superman?",
+		question: "Test Question",
 		answer: "No"
 	    }
 	]
@@ -91,6 +91,10 @@ function renderResponse(idx) {
 function renderMain() {
     let i = 0;
     const heading = document.createElement("h2");
+    const two = document.createElement("h1");
+    const three = document.createElement("h1");
+    two.innerText = "Statistics";
+    three.innerText = "Inconsistent Responses";
     heading.innerText = "Responses";
     root.appendChild(heading);
     responses.forEach(person => {
@@ -111,6 +115,8 @@ function renderMain() {
 	root.appendChild(child_div);
 	i++;
     })
+    root.appendChild(two);
+    root.appendChild(three);
 }
 
 renderMain()
