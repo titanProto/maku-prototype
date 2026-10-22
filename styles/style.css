@@ -63,3 +63,12 @@
 	padding: 25px;
 }
 /*IDs*/
+
+#return-home {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	margin-left: 10px;
+	background-color: rgba(183, 183, 183, 0.3);
+	border-radius: 0px 0px 5px 5px;
+}
